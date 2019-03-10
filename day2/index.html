@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Day 2: Applied visual design</title>
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Merienda" rel="stylesheet">
+		<style>
+			body {
+				--primary-color: #4f9da6;
+				--secondary-color: #ff5959;
+				--ternary-color: #facf5a;
+				--alternative-color: #f8f1f1;
+				--background-color: #233142;
+				--heading-font: "Merienda", cursive;
+				--normal-font: "Cormorant Garamond", serif;
+
+				background-color: var(--background-color);
+				margin: auto;
+				width: 50%;
+                text-align: center;
+                font-size: 1.6em;
+				color: var(--alternative-color);
+			}
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+                color: var(--ternary-color);
+                font-family: var(--heading-font);
+            }
+            .moon {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                left: 0px;
+                margin: auto;
+                width: 100px;
+                height: 100px;
+                background-color: transparent;
+
+                border-radius: 50%;
+                box-shadow: 10px 20px 0px 0px var(--primary-color);
+                transition: box-shadow 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+            .relative-container {
+                position: relative;
+                top: 0;
+                width: 100px;
+                height: 100px;
+                margin: 100px auto;;
+            }
+
+            .moon:hover {
+                box-shadow: 10px 20px 0px 0px var(--ternary-color), 15px 35px 20px -14px var(--ternary-color);
+            }
+
+            .heart {
+                background-color: var(--alternative-color);
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                left: 0px;
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                transform: rotate(-45deg);
+                animation-name: pulse, color-red;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+
+            .overlay{
+                animation-name: overlay, color-red;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+
+            .heart::after {
+                content: "";
+                position: absolute;
+                background-color: var(--alternative-color);
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                top: 0;
+                left: 50px;
+                animation: color-red 2s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+
+            .heart::before {
+                content: "";
+                position: absolute;
+                background-color: var(--alternative-color);
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                left: 0;
+                top: -50px;
+                animation: color-red 2s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+
+            @keyframes pulse {
+                0% {
+                    transform: scale(1) rotate(-45deg);
+                }
+                50% {
+                    transform: scale(1.5) rotate(-45deg);
+                };
+                100% {
+                    transform: scale(1) rotate(-45deg);
+                }
+            }
+
+            @keyframes color-red {
+                0% {
+                    background-color: var(--alternative-color);
+                }
+                50% {
+                    background-color: var(--secondary-color);
+                };
+                100% {
+                    background-color: var(--alternative-color);
+                }
+            }
+
+            @keyframes overlay {
+                0% {
+                    transform: scale(1) rotate(-45deg);
+                    opacity: 1;
+                }
+                50% {
+                    transform: scale(1.65) rotate(-45deg);
+                    opacity: 0.3;
+                };
+                100% {
+                    transform: scale(1) rotate(-45deg);
+                    opacity: 1;
+                }
+            }
+		</style>
+	</head>
+
+	<body>
+        <h1>Day 2: Applied Design</h1>
+        <div class="relative-container">
+            <div class="heart"></div>
+            <div class="heart overlay"></div>
+        </div>
+
+    </body>
+</html>
