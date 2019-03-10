@@ -76,4 +76,5 @@ color: var(--contrast-color, white);
 > **Note**: you can reassign the value of a variable specific to a CSS selector
 
 
-
+## Demo 
+![demo](/day-one-demo.gif)
