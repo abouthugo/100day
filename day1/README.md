@@ -77,4 +77,4 @@ color: var(--contrast-color, white);
 
 
 ## Demo 
-![demo](/day-one-demo.gif)
+![demo](./day-one-demo.gif)
