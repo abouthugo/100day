@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Merienda" rel="stylesheet">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    
+    <header>
+        <h1>Day one: HTML and CSS basics</h1>
+    </header>
+    
+    <body>
+        <div class="container">
+            <section>
+                <h2>Transitions</h2>
+                <p>Note how the first circle is <span class="highlight">animated</span> and the other is not</p>
+                <div class="circle-set">
+                        <div class="circle-wrapper">
+                            <div class="circle animated"></div>
+                            animated
+                        </div>
+                        <div class="circle-wrapper">
+                            <div class="circle"></div>
+                            not animated
+                        </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Inputs</h2>
+                <form action="#">
+                    <input type="text" placeholder="Full name" id="name" required>
+                    <h3>Favorite ice cream flavour?</h3>
+                    <div id="ice-cream-list">
+                        <label for="">
+                            <input type="radio" name="ice-cream-flavor" id="vanilla">Vanilla
+                        </label>
+                        <label for="">
+                            <input type="radio" name="ice-cream-flavor" id="chocolate">Chocolate
+                        </label>
+                        <label for="">
+                            <input type="radio" name="ice-cream-flavor" id="strawberry">Strawberry
+                        </label>
+                    </div>
+                    <div id="favorite-stores">
+                        <h3>Favorite stores?</h3>
+                        <label for="aldo">
+                            <input type="checkbox" name="fav-store" id="aldo">Aldo
+                        </label>
+                        <label for="thursday">
+                            <input type="checkbox" name="fav-store" id="thursday">Thursday Boot
+                        </label>
+                        <label for="uniqlo">
+                            <input type="checkbox" name="fav-store" id="uniqlo">Uniqlo
+                        </label>
+                        <label for="zara">
+                            <input type="checkbox" name="fav-store" id="zara">Zara
+                        </label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </body>
+    <footer>
+        <h2>Author:</h2>
+        <p>Hugo Perdomo</p>
+        <h2>Credits to</h2>
+        <p>Freecodecamp.org, HTML/CSS basics tutorials</p>
+        <h4 class="secondary">#100daysofcode</h4>
+    </footer>
+</html>
