@@ -27,3 +27,11 @@ Link to work: [html](day2/index.html)
 **Thoughts:** I'm really onto something here. I like the fact that I'm understanding positioning better and I'm becoming a better CSS coder. I really look forward to the next lesson on responsive design in which I hope to code my very own toggle menu button and navbar. 
 
 Link to work: [code pen 1](https://codepen.io/perdomoh/pen/gExgzJ) [code pen 2](https://codepen.io/perdomoh/pen/qvXRGJ)
+
+### Day 4: Rock, paper, scissors!
+
+**Progress:** I didn't go over any material on this day. However, I got in touch with some folks from the slack channel of Socket.io and explained my struggles for my game. I decided not to wait around and hacked a way to do a user confirmation by using a sort of handshake method. User 1 sends a requests and listens for confirmation. User 2 gets to decide whether to reject or accept. When User 2 accepts a confirmation to User 1 is sent, and the timer in both ends starts. Both players get 5 seconds to select their card and then they send each other their responses which in turn gets computed with the logic and they get their results. I wish there was anyther way of simplying this process, but for now this will do :confused:.
+
+**Thoughts:** I didn't spend as much time as I would have wanted to. The code doesn't look pretty at the moment but I hope that when I get all the functionalities working I can focus on refactoring and making things more efficient. Today was a kind of down and slow day for me. Hopefully tomorrow turns out better. 
+
+Link to work: [Rock-Paper-Scissors](https://github.com/p-hugo/rock-paper-scissors) 
