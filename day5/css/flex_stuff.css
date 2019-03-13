@@ -1,0 +1,83 @@
+body {
+  background-color: white; }
+
+.pokeball {
+  position: relative;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: #EE4746;
+  border: 5px solid #1A385E;
+  border-radius: 50%;
+  transform: rotate(15deg);
+  box-shadow: inset -16px 0 1px 0 #DD2828;
+  transition: all 0.25s ease-in-out; }
+  .pokeball:hover {
+    animation-name: roll;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+
+.inner-ball {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 4px solid #1A385E;
+  box-shadow: inset -16px 0 1px 0 #C5DEED; }
+
+.dot {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #1A385E; }
+
+.lower-part {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  background: white;
+  width: 200px;
+  height: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  transform: rotate(180deg);
+  box-shadow: inset 16px 0 1px 0 #C5DEED; }
+
+.middle-line {
+  position: absolute;
+  width: 108%;
+  height: 5px;
+  background-color: #1A385E;
+  top: 50%;
+  left: -4%; }
+  .middle-line::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    background-color: #1A385E;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%; }
+  .middle-line::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -2px;
+    background-color: #1A385E;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%; }
+
+@keyframes roll {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

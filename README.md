@@ -35,3 +35,11 @@ Link to work: [code pen 1](https://codepen.io/perdomoh/pen/gExgzJ) [code pen 2](
 **Thoughts:** I didn't spend as much time as I would have wanted to. The code doesn't look pretty at the moment but I hope that when I get all the functionalities working I can focus on refactoring and making things more efficient. Today was a kind of down and slow day for me. Hopefully tomorrow turns out better. 
 
 Link to work: [Rock-Paper-Scissors](https://github.com/p-hugo/rock-paper-scissors) 
+
+### Day 5: no real theme here...
+
+**Progress:** I worked on the responsive design tutorials on free code camp and ended up making a pokeball illustration with css. 
+
+**Thoughts:** I need to dedicate more time to flex box and all this responsive design since most of it is a little foggy in my mind.
+
+Link to work: [pokeball](day5/day5.html) 
