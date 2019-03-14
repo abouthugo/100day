@@ -43,3 +43,12 @@ Link to work: [Rock-Paper-Scissors](https://github.com/p-hugo/rock-paper-scissor
 **Thoughts:** I need to dedicate more time to flex box and all this responsive design since most of it is a little foggy in my mind.
 
 Link to work: [pokeball](day5/day5.html)
+
+### Day 6: More CSS figures
+
+**Progress:** Today I felt like taking some inpiration from dribbble and try to mimic some design. I decided it was time to try creating new shapes other than circles in css so I decided to do a coffee cup.
+
+**Thoughts:** Every day gets harder to make some time for this challenge. I fear that once the break is over I won't be able to committ to it :worried:
+
+Link to work: [starbucks coffee cup](day6/index.html)
+Demo: ![demo](/day6/demo.png)

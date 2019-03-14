@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+$bg: rgb(73, 73, 73);
+$starbucks-green :#5AC092;
+$starbucks-green-darker : #26A96B;
+$starbucks-green-lighter :#9DE599;
+$font: 'Lato', sans-serif;
+body {
+    background-color: $starbucks-green;
+    color: white;
+    font-family: $font;
+}
+
+.flex-container{
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.coffee {
+    position: relative;
+    left: 100px;
+    width: 110px;
+    height: 250px;
+    transform: scale(2);
+    // border: 1px solid black;
+
+    #c-top{
+        position: absolute;
+        top: 0;
+        left: -17%;
+        width: 110%;
+
+        border-width: 14px;
+        border-style: solid;
+        border-bottom-color: white;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        
+        &::before{
+            position: absolute;
+            content: "";
+            top: -17px;
+            left: 10%;
+            width: 80%;
+            height: 14px;
+            background-color: white;
+        }
+    }
+
+    #c-body{
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        top: 13%;
+        left: 10%;
+        background-color: white;
+
+        &::after, &::before {
+            position: absolute;
+            content: "";
+            top: 0px;
+            left: -4%;
+            height: 100%;
+            width: 20px;
+            transform: skewX(2deg);
+            background-color: white;
+
+        }
+        &::before {
+            left: auto;
+            right: -4.5%;
+            transform: skewX(-2deg);
+        }
+    }
+
+    #c-logo{
+        position: absolute;
+        top: 40%;
+        left: 32%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $starbucks-green;
+        box-shadow: 0 0 20px $starbucks-green-lighter, inset -20px 0 0 -10px $starbucks-green-darker;
+
+       
+    }
+    #shadow {
+        position: absolute;
+        bottom: 6px;
+        left: 5px;
+        width: 100px;
+        height: 20px;
+        border-radius: 50%;
+        transform: scale(1.5);
+        background-color: rgba(0,0,0,0.2);
+    }
+}
+h2{ 
+    font-size: 36px;
+}
