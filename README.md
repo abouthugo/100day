@@ -1,6 +1,6 @@
 # 100 Days of code challenge
 
-Yes! I decided to take on this challenge.
+Yes! I decided to take on this challenge. Hopefully by the end of it I will be a more mature coder :dragon_face:
 
 ## Logs
 
@@ -52,3 +52,11 @@ Link to work: [pokeball](day5/day5.html)
 
 Link to work: [starbucks coffee cup](day6/index.html)
 Demo: ![demo](/day6/demo.png)
+
+### Day 7: Gatsby, React, CSS Modules, & Video
+
+**Progress:** I've gotta say that today was both challenging and hihghly productive. I've been wanting to put a web page together to showcase my work but I always had difficulty finding the best tools that will allow me to use React and the hosting wouldn't cost me much. Thanks to Gatsby.js I'm able to create a fast static site on React, and thanks to Netlify I'm able to share it with the world with \$0 cost. I didn't finish the entire site, I'll keep adding more stuff incrementally here and there but I'm proud of how much I got done today. The site is still not responsive tho :cold_sweat:, that will be my next move.
+
+**Thoughts:** The more I learn about Gatsby and all the buzz about serverless sites, the more I get curious about its capabilities and limitations. I'm thinking of coming up with more projects that use Gatsby and this new serverless infrastructure to see how it performs.
+
+[Link to work](https://github.com/p-hugo/web-portfolio)
