@@ -60,3 +60,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** The more I learn about Gatsby and all the buzz about serverless sites, the more I get curious about its capabilities and limitations. I'm thinking of coming up with more projects that use Gatsby and this new serverless infrastructure to see how it performs.
 
 [Link to work](https://github.com/p-hugo/web-portfolio)
+
+### Day 8: Adding responsiveness to my site
+
+**Progress:** I added some media queries on the navigation bar and added a hamburger menu to the mobile version of my site.
+
+**Thoughts:** I didn't get as much done as I would've liked but dealing with media queries can sometimes be cumbersome, specially when using css modules. I hope to finish the responsiveness the next day I work on it.
+
+[Link to work](https://github.com/p-hugo/web-portfolio)
