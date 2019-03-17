@@ -68,3 +68,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** I didn't get as much done as I would've liked but dealing with media queries can sometimes be cumbersome, specially when using css modules. I hope to finish the responsiveness the next day I work on it.
 
 [Link to work](https://github.com/p-hugo/web-portfolio)
+
+### Day 0: Adding responsiveness to my site
+
+**Progress:** Today was a very productive and information day. I added the final tweaks for my site to be responsive, what's missing now is the content that is going to make it special. Now that I got the foundations down, I hope the next stage won't be such a conundrum.
+
+**Thoughts:** I failed many times trying to add a feature and by the time I realized that adding such feature beyond my scope, I had already wasted 3 hours trying to make it work with different methods. On the bright side, thanks to that I learned a bunch stuff on Gatsby, like how to pass state with links and I also learned how to add maps from mapbox.
+
+[Link to work](https://github.com/p-hugo/web-portfolio)
