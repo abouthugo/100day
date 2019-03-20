@@ -69,10 +69,34 @@ Demo: ![demo](/day6/demo.png)
 
 [Link to work](https://github.com/p-hugo/web-portfolio)
 
-### Day 0: Adding responsiveness to my site
+### Day 9: Adding responsiveness to my site
 
 **Progress:** Today was a very productive and information day. I added the final tweaks for my site to be responsive, what's missing now is the content that is going to make it special. Now that I got the foundations down, I hope the next stage won't be such a conundrum.
 
 **Thoughts:** I failed many times trying to add a feature and by the time I realized that adding such feature beyond my scope, I had already wasted 3 hours trying to make it work with different methods. On the bright side, thanks to that I learned a bunch stuff on Gatsby, like how to pass state with links and I also learned how to add maps from mapbox.
+
+[Link to work](https://github.com/p-hugo/web-portfolio)
+
+### Day 10: Started android assignment for a quiz app
+
+**Progress:** Got button selection and main views done, no scoring system in place.
+
+**Thoughts:** I feel like I'm cheating by counting this as part of the challenge but honestly I spent quite a few hours coding so I said: why not?
+
+[Link to work](https://github.com/p-hugo/android-card-quiz-game)
+
+### Day 11: Finished android assignment
+
+**Progress:** I managed to hack away the multiple answers feature required for this assignment but I didn't get to save data on the phone. Will learn how to in the next assignment.
+
+**Thoughts:** I'm starting to become familiar with the android development architecture. I used to spend hours just to get a simple feature to work, now its more seamless and efforless (depending on the level of complexity for a given feature).
+
+[Link to work](https://github.com/p-hugo/android-card-quiz-game)
+
+### Day 12: Refactoring my website's code
+
+**Progress:** Merged some React components with their respective SCSS modules into styled components. Added some more components for the next generation of the game.
+
+**Thoughts:** I'm really psyched about using styled components throughout my entire code base and experimenting with the ThemeProvider component. I really wasn't aware of the fact that you could use scss syntax in a styled component, that's an awesome feature and it totally sold me out.
 
 [Link to work](https://github.com/p-hugo/web-portfolio)
