@@ -121,6 +121,14 @@ Demo: ![demo](/day6/demo.png)
 
 **Progress:** I went back to a udemy course I had purchased last year and went over the ajax requests section to pull random quotes and random images from an API. I used the jQuery library to make the requests less verbose and easy on my end.
 
-**Thoughts:** Touching base with the good old jQuery was refreshing considering the fact that I haven't really used the library ever since I started learning react 8 months ago. 
+**Thoughts:** Touching base with the good old jQuery was refreshing considering the fact that I haven't really used the library ever since I started learning react 8 months ago.
 
 [See the work](/day15/)
+
+### Day 16: Fetch vs Axios vs jQuery AJAX vs XMLHttpRequest
+
+**Progress:** Fetching data can be done in a variety of ways, too many for me to remembet honestly. This is the reason why I decided to refresh on some of the options I have and compare them in one simple page. For this day I used fetch, axios, jQuery Ajax and XMLHttpRequest to send a get request to a random design quote API. Then, once the data had been fetch the quotes is updated.
+
+**Thoughts:** Today's lesson was very useful even though it felt really lightweight. I think that whenever I have my doubts about fetching some data from an API I will find myself looking back at the examples I coded for today.
+
+[See the work](/day16/)

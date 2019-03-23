@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700');
+$main-font: 'IBM Plex Sans', sans-serif;
+body{
+    display: grid;
+    grid-template-columns: 2fr repeat(4, 3fr);
+    grid-template-areas: 
+    'pa quo quo quo';
+    grid-gap: 20px;
+    font-family: $main-font;
+}
+
+.button-group{
+    display: flex;
+    grid-area: pa;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 10px 0;
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: rgb(109, 39, 238);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px  rgba(0,0,0, 0.2);
+    &:hover, &:focus{
+        outline: none;
+        background-color: rgb(124, 62, 240);
+        transform: translate3d(0, 2px, 0);
+        box-shadow: 0 0 2px  rgba(0,0,0, 0.2);
+    }
+}
+
+.quote{
+    grid-area: quo;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-flow: column nowrap;
+    & p{
+        display: inline;
+        font-size: 18px;
+    }
+}
+
+#quote-text{
+    color: #000000a8;
+    border-left: 3px solid black;
+    padding: 0 4px;
+}
+
+#author{
+    align-self: flex-end;
+    &::before{
+        content: "-";
+    }
+}
+

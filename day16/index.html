@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Domine|Muli"
+			rel="stylesheet"
+		/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<title>Comparing HTTP Requests</title>
+	</head>
+	<body>
+		<div class="button-group">
+			<button onclick="XHR()">XHR</button>
+			<button onclick="jQueryAjax()">AJAX</button>
+			<button onclick="Fetch()">Fetch</button>
+			<button onclick="Axios()">Axios</button>
+		</div>
+		<div class="quote">
+			<h1>Quote:</h1>
+			<blockquote id="quote-text"></blockquote>
+			<div id="author"></div>
+		</div>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
