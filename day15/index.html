@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script
+			src="http://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css?family=Domine|Muli"
+			rel="stylesheet"
+		/>
+		<style>
+			:root {
+				--main-color: #fbf9fa;
+				--main-inverse: black;
+				--primary: #a4a5a7;
+				--secondary: white;
+				--tertiary: #5ea4dd;
+			}
+			body {
+				background: var(--main);
+				color: var(--main-inverse);
+				font-family: "Muli", sans-serif;
+			}
+			blockquote {
+				border-left: 4px solid var(--main-inverse);
+				padding: 0 10px;
+				font-size: 18px;
+				background: var(--secondary);
+				font-family: "Domine", serif;
+			}
+			.source {
+				display: block;
+				text-align: end;
+			}
+			.source::before {
+				content: "-";
+			}
+
+			.btn-style {
+				padding: 5px 15px;
+				background-color: white;
+				color: var(--main-inverse);
+				text-transform: uppercase;
+				font-size: 16px;
+				border-radius: 50px;
+				margin: 10px;
+			}
+			.btn-style:focus {
+				outline: none;
+			}
+			.btn-style:active {
+				background-color: black;
+				color: white;
+			}
+			.half {
+				width: 95%;
+				margin: 0 auto;
+			}
+			.image {
+				min-width: 300px;
+                max-width: 300px;
+				height: 300px;
+				background-image: url("https://images.unsplash.com/photo-1551025313-943c7691ecb8?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9");
+				background-repeat: no-repeat;
+				background-size: cover;
+				padding: 10px;
+				border: 2px solid gainsboro;
+				border-radius: 10px;
+                margin: 0 10px;
+			}
+			.container {
+				display: flex;
+                align-items: center;
+			}
+		</style>
+		<title>jQuery AJAX and Axios</title>
+	</head>
+	<body>
+		<main>
+			<section class="half">
+				<h1>jQuery AJAX requests for random Design Quotes</h1>
+				<button id="btn" class="btn-style">Quote</button>
+				<blockquote id="dumbster"></blockquote>
+				<div id="author" class="source"></div>
+			</section>
+			<hr />
+			<section class="half">
+				<h1>Random Photos</h1>
+				<button id="randpic" class="btn-style">random photo</button>
+				<div class="image" id="target"></div>
+			</section>
+			<hr />
+			<section class="half">
+				<h1>Combining both</h1>
+				<button id="both" class="btn-style">new post</button>
+				<div class="container">
+					<div>
+						<blockquote id="quote"></blockquote>
+						<div id="quote-author" class="source"></div>
+					</div>
+					<div class="image" id="quote-img"></div>
+				</div>
+			</section>
+		</main>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>

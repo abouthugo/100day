@@ -101,10 +101,26 @@ Demo: ![demo](/day6/demo.png)
 
 [Link to work](https://github.com/p-hugo/web-portfolio)
 
-### Day 12: Going full styled-components on my website codebase
+### Day 13: Going full styled-components on my website codebase
 
 **Progress:** I decided that styled componentes are the way to go for styling on my website codebase so I changed most of the components to styled ones. I left some navbar components as scss modules because the scss was quite long and I thought they should stay separated once they become quite long.
 
 **Thoughts:** Its starting to get very difficult to keep up with the school's workload and this challenge! However, I am not ready to quit. I need this to become a better developer so I will keep pressing forward and taking short breaks here and there.
 
 [Link to work](https://github.com/p-hugo/web-portfolio)
+
+### Day 14: React-spring basics
+
+**Progress:** I started digging into what react-spring is all about and did some minor spring effets for the "creative corner" section of my site.
+
+**Thoughts:** I really want to learn how to animate svg elements with this library but I don't know enough of svg to be able to understand the examples I've seen online.
+
+[Link to work](https://github.com/p-hugo/web-portfolio)
+
+### Day 15: AJAX Requests
+
+**Progress:** I went back to a udemy course I had purchased last year and went over the ajax requests section to pull random quotes and random images from an API. I used the jQuery library to make the requests less verbose and easy on my end.
+
+**Thoughts:** Touching base with the good old jQuery was refreshing considering the fact that I haven't really used the library ever since I started learning react 8 months ago. 
+
+[See the work](/day15/)
