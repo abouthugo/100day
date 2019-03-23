@@ -100,3 +100,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** I'm really psyched about using styled components throughout my entire code base and experimenting with the ThemeProvider component. I really wasn't aware of the fact that you could use scss syntax in a styled component, that's an awesome feature and it totally sold me out.
 
 [Link to work](https://github.com/p-hugo/web-portfolio)
+
+### Day 12: Going full styled-components on my website codebase
+
+**Progress:** I decided that styled componentes are the way to go for styling on my website codebase so I changed most of the components to styled ones. I left some navbar components as scss modules because the scss was quite long and I thought they should stay separated once they become quite long.
+
+**Thoughts:** Its starting to get very difficult to keep up with the school's workload and this challenge! However, I am not ready to quit. I need this to become a better developer so I will keep pressing forward and taking short breaks here and there.
+
+[Link to work](https://github.com/p-hugo/web-portfolio)
