@@ -140,3 +140,12 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** Its been a little while since I've done backend stuff and I've gotta say that node js makes is very simple and easy. I saw a video from Wes Bos not too long ago where he used es6 syntax in his nodejs script and I decided to find the video and copy how he did the set up (which is very minimal). I ABSOLUTELY love how es6 syntax looks on node!
 
 [See the work](https://github.com/p-hugo/censorship-questions-api)
+
+### Day 17: All about deployment
+
+**Progress:** Today I decided it was time to start playing around with GCP. I went back to a very brief tutorial I've followed in the past that showed how to use docker with an express API. I did exactly that and managed to deploy it, it took me about 2 hours to figure it out but their guides are highly useful and friendly so it was definitely because of my level of understanding on Kubernetes. However, I did not end up using the deployed docker instance since google didn't provide me with https connections right off the bat I had to turn to Heroku.
+
+**Thoughts:** I didn't get as much work as I had hoped. In fact I didn't finish the presentation, I just didn't have enough time to do what I wanted and I didn't want to present something halfway done so I ended up not developing it further. I plan to automate this process for later use because I think it is very useful.
+[Presentation](https://p-hugo.github.io/censorship-presentation/)
+
+[API](https://github.com/p-hugo/censorship-questions-api/tree/heroku-deploy)
