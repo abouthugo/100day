@@ -132,3 +132,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** Today's lesson was very useful even though it felt really lightweight. I think that whenever I have my doubts about fetching some data from an API I will find myself looking back at the examples I coded for today.
 
 [See the work](/day16/)
+
+### Day 17: APIs
+
+**Progress:** I started an API for questions. The main purpose is to store questions and answers for an interactive presentation. I want to display the participants answers real time after they are done answernig the questions in the middle of the presentation. I managed to set up 2 express routes with connections to an MLab database. I still need to add a way to post answers to the database.
+
+**Thoughts:** Its been a little while since I've done backend stuff and I've gotta say that node js makes is very simple and easy. I saw a video from Wes Bos not too long ago where he used es6 syntax in his nodejs script and I decided to find the video and copy how he did the set up (which is very minimal). I ABSOLUTELY love how es6 syntax looks on node!
+
+[See the work](https://github.com/p-hugo/censorship-questions-api)
