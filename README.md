@@ -141,7 +141,7 @@ Demo: ![demo](/day6/demo.png)
 
 [See the work](https://github.com/p-hugo/censorship-questions-api)
 
-### Day 17: All about deployment
+### Day 18: All about deployment
 
 **Progress:** Today I decided it was time to start playing around with GCP. I went back to a very brief tutorial I've followed in the past that showed how to use docker with an express API. I did exactly that and managed to deploy it, it took me about 2 hours to figure it out but their guides are highly useful and friendly so it was definitely because of my level of understanding on Kubernetes. However, I did not end up using the deployed docker instance since google didn't provide me with https connections right off the bat I had to turn to Heroku.
 
