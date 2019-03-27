@@ -149,3 +149,11 @@ Demo: ![demo](/day6/demo.png)
 [Presentation](https://p-hugo.github.io/censorship-presentation/)
 
 [API](https://github.com/p-hugo/censorship-questions-api/tree/heroku-deploy)
+
+### Day 19: Docker Containers
+
+**Progress:** I spent a good amount of time learning more about containers and a little bit about Kubernetes. I started a new course on docker in pluralsight and got the basics down. Since I'm running the commands on the terminal I don't think it'd be of any use adding that code in a repo so instead I added some more notes in my note-space repo where I post all my notes on technologies I'm currently learning.
+
+**Thoughts:** Containers are cool. It seemed like such a daunting topic not so long ago but just diving right into them and poking around really helps me understand the full picture. I am by no means close to understanding the full depth of complexity and the power of what Docker can do but I am grasping the concepts and enjoying it. Can't wait to master this new technology and come up with new exciting projects!
+
+[Notes on docker](https://github.com/p-hugo/note-space)
