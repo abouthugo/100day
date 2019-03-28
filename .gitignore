@@ -2,3 +2,9 @@
 
 # Ignore cache files
 *sass-cache
+
+# Node stuff
+node_modules
+
+# Build files
+dist
