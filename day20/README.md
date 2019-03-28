@@ -1,6 +1,6 @@
 # A custom webpack config mini project
 
-First install the dependencies **`npm install`*
+First install the dependencies **`npm install`**
 
 To build the bundle:
 
@@ -12,4 +12,4 @@ or
 
 Then you can use something like [serve](https://www.npmjs.com/package/serve) to spin up a little server and see the files on your machine.
 
-:note: I have also added a `start` script in the `package.json` file to make this easy. Simply run **`npm run start`**
+:point_right: I have also added a `start` script in the `package.json` file to make this easy. Simply run **`npm run start`**
