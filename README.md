@@ -157,3 +157,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** Containers are cool. It seemed like such a daunting topic not so long ago but just diving right into them and poking around really helps me understand the full picture. I am by no means close to understanding the full depth of complexity and the power of what Docker can do but I am grasping the concepts and enjoying it. Can't wait to master this new technology and come up with new exciting projects!
 
 [Notes on docker](https://github.com/p-hugo/note-space)
+
+### Day 20: Configuring own webpack settings for a React app
+
+**Progress:** I followed a small tutorial on how to set up your very own webpack config for a React app. No fancy stuff just your regular ES6 to ES5 transpiling and an html loader. Might add hot realoding later.
+
+**Thoughts:** Prior to this tutorial I had followed some instructions from a book published around 2015 and the information was obviously outdated. Back then I was really frustrated at how webpack worked because of the outcome from following the book's instructions. Now, is a joy looking at how easy it is to get started.
+
+[See the config!](day20/)
