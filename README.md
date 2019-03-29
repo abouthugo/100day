@@ -165,3 +165,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** Prior to this tutorial I had followed some instructions from a book published around 2015 and the information was obviously outdated. Back then I was really frustrated at how webpack worked because of the outcome from following the book's instructions. Now, is a joy looking at how easy it is to get started.
 
 [See the config!](day20/)
+
+### Day 21: Arduino and C++!?
+
+**Progress:** Today I dived back into the arduino world. I created a small program and hooked up my arduino board to display my name of a LCD screen. By far the coolest hardware mini project I've done.
+
+**Thoughts:** Where to begin?! Thanks to an extension called PlatformIO in VSCode I learned that the arduino programs are written in C++ so all the programs I've written for my arduino in the past were all written in C++ without me realizing it! I was dumbstruck by this epiphany. Through this mini project I realized how much I like working with hardware, I feel right at home and the code feels like its on another level since you are seeing physical objects being affected by the code you write. Which is AWESOME! I plan to do some IoT stuff in the future once I master this crazy art of tinkering with components and boards.
+
+[See the code](day21/)
