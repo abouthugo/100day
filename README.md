@@ -173,3 +173,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** Where to begin?! Thanks to an extension called PlatformIO in VSCode I learned that the arduino programs are written in C++ so all the programs I've written for my arduino in the past were all written in C++ without me realizing it! I was dumbstruck by this epiphany. Through this mini project I realized how much I like working with hardware, I feel right at home and the code feels like its on another level since you are seeing physical objects being affected by the code you write. Which is AWESOME! I plan to do some IoT stuff in the future once I master this crazy art of tinkering with components and boards.
 
 [See the code](day21/)
+
+### Day 22: Typescript Basics
+
+**Progress:** The day for me to play with Typescript has finally arrived! I went over 2-3 modules on plural sight about Typescript and took what I learned from there and implemented my own two scripts and compiled them down to JS manually.
+
+**Thoughs:** I like what Typescript offers, however I feel like I am not at the level in which all the type checking makes a massivee difference in my workflow. I wonder how a React app would look with all the extra syntax, I'm used to using propTypes to handle the majority of errors and bugs related to type checking. So... I don't really see the benefit of adding yet another layer of abstraction. Maybe as I learn more and use it more I will find that out for myself.
+
+[Typescript](day22/)
