@@ -187,3 +187,11 @@ Demo: ![demo](/day6/demo.png)
 **Progress:** Oh boy did I put in some hours here! I basically deleted 1 sectiong of my website and changed a creative section to be more of a project section. I made these changes based on other web portfolios that I've seen around and that I really really like. I also tried using devicons with gatsby but failed to do so.
 
 **Thoughts:** Some things will not always come out the way you want them and some features, sadly, will take more time that you had initially intended to invest. I learned this when I had to import all the icons for a "things I used" section in my website manually! I tried using the CDN from devicons but I couldn't figure out a fast way. I also tried using react-devicon but I kept getting more errors—which I think are gatsby related but didn't really want to invest the time in digging the issue, just wanted to make sure my feature could be implemented today. SO! I had to do it manually and at last it worked. Will probably revisit this in the future to see if any better implementations have been discovered.
+
+### Day 24: Redesigning Navigation
+
+**Progress:** Completely remade the navigation bar. Used Sketch to prototype and design it and then I tried implementing it with html and css.
+
+**Thoughts:** Inspired by app designs I've seen in dribbble, I decided to give my unpublished website a fresh new look. CSS grid made it possible and a lot simpler than I thought. Next step will be to convert this html and css into react code that GatsbyJS can render and package together.
+
+[See the work](day24/)
