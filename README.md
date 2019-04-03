@@ -195,3 +195,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** Inspired by app designs I've seen in dribbble, I decided to give my unpublished website a fresh new look. CSS grid made it possible and a lot simpler than I thought. Next step will be to convert this html and css into react code that GatsbyJS can render and package together.
 
 [See the work](day24/)
+
+### Day 25: Restructuring Chat Room App
+
+**Progress:** I went back in time and revisited my chat room app and made some major changes. First the file structure was thought out really bad, I was just learning how React and Node worked back then. I divided the src code for the react app in its own src folder and the backend server for socket connections also got its own directory. I also started using more es6 syntax in node through the use of esm so I converted frome es5 to es6 in the backend.
+
+**Thoughts:** The feeling of looking back at old code and finding out how naive I was and how I am able to spot the mistakes I made in the past is amazing! Through it I can see how much I've grown, it reinforces the fact that all this time coding has not been a waste. I actually know what I'm doing now. I think I will be reopening half-finished projects from the past and giving them a fresh new life with the knowledge I now have.
+
+[Chat app link](https://github.com/p-hugo/chat-room)
