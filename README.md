@@ -203,3 +203,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** The feeling of looking back at old code and finding out how naive I was and how I am able to spot the mistakes I made in the past is amazing! Through it I can see how much I've grown, it reinforces the fact that all this time coding has not been a waste. I actually know what I'm doing now. I think I will be reopening half-finished projects from the past and giving them a fresh new life with the knowledge I now have.
 
 [Chat app link](https://github.com/p-hugo/chat-room)
+
+### Day 26: Async Await, Promises, and much more
+
+**Progress:** I worked on learning how async await works and implemented it at a project for one of my jobs.
+
+**Thoughts:** I'm still pretty fresh when it comes to async await. It wasn't until recently that I started seeing it more in codebases that I follow, then I realized how convenient and efficient it can be.
+
+[Work Performed](https://github.com/p-hugo/netsci-dashboard/blob/20457ca2369d7990793b7f24a6c3da3086b9c5cb/src/Context/index.js#L84)
