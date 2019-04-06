@@ -211,3 +211,29 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts:** I'm still pretty fresh when it comes to async await. It wasn't until recently that I started seeing it more in codebases that I follow, then I realized how convenient and efficient it can be.
 
 [Work Performed](https://github.com/p-hugo/netsci-dashboard/blob/20457ca2369d7990793b7f24a6c3da3086b9c5cb/src/Context/index.js#L84)
+
+
+### Day 27: Using Theme context in styled-components
+
+**Progress**: Went over the documentation for the theme api in styled-components and implemented it in my own way.
+
+**Thoughts** For some reason, I think the new styled-component library has broken my vscode. It takes forever to load and in some cases it doesn't even load. I need to find out what's wrong with this because its killing my workflow. Besides that, the theme context api is pretty straightforward I like it.
+
+[day27](day27/)
+
+### Day 28: Tried to implement drag and drop with pure react
+
+**Progress**: Not much. It was a frustrating day. I ended up trying to implement the library `react-beautiful-dnd` to do it but I ran out of time and left it half way done.
+
+**Thoughts** Today felt like a total defeat. My vscode for some reasons is not working at all. Whenever I import the `styled-components` library into my project, the whole thing stops working!! I even had to uninstall vscode several times but with no luck.
+
+[day27](https://github.com/p-hugo/todo)
+
+
+### Day 29: Implemented Drag and Drop 
+
+**Progress**: Implemented a simple drag and drop component with the help of `react-beautiful-dnd`. 
+
+**Thoughts** The implementation still has some bugs but I will take some time to go over them later. Right now, my priority is to fix my problems with VS Code...
+
+[Link to work](https://github.com/p-hugo/drag-n-drop-tutorial)
