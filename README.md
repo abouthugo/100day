@@ -237,3 +237,19 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts** The implementation still has some bugs but I will take some time to go over them later. Right now, my priority is to fix my problems with VS Code...
 
 [Link to work](https://github.com/p-hugo/drag-n-drop-tutorial)
+
+### Day 30: Refactored codebase in todo app
+
+**Progress**: Worked on updating the syntax of the backend API to comply with es6. I used `esm` to help me run imports/exports part of the code since node hasn't catch up to this feature yet. 
+
+**Thoughts**: Is the second time I refactor an entire codebase that I've created in the past. It feels good to know that the stuff I have been learning are being put to good use when I do these major refactoring and restructuring tasks.
+
+[See the code](https://github.com/p-hugo/todo)
+
+### Day 31: Flexbox, custom selector and more
+
+**Progress**: I mostly worked on a website's flexbox model. Did some CSS icon creation and even a custom React selector. 
+
+**Thoughs**: We take the small things for granted. The little icon hanging next to a link. The way a selector looks different from a regular one. All these things are really complex in their own way. After implementing my own selector, I notice these little things more and stop to admire the work developers have put into it.
+
+[Work](https://p-hugo.github.io/BTC-website/)
