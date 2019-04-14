@@ -22,7 +22,7 @@ Link to work: [html](day2/index.html)
 
 ### Day 3: Accessible web
 
-**Progress:** I went over the accessibility challenges in free code camp and learned how to use the HTML 5 audio element (see code pen 1). I succesfully implemented the border from the middle effect using `relative` and `absolute` positioning and `::after` pseudo selector (see conde pen 2).
+**Progress:** I went over the accessibility challenges in free code camp and learned how to use the HTML 5 audio element (see code pen 1). I successfully implemented the border from the middle effect using `relative` and `absolute` positioning and `::after` pseudo selector (see code pen 2).
 
 **Thoughts:** I'm really onto something here. I like the fact that I'm understanding positioning better and I'm becoming a better CSS coder. I really look forward to the next lesson on responsive design in which I hope to code my very own toggle menu button and navbar.
 
@@ -30,7 +30,7 @@ Link to work: [code pen 1](https://codepen.io/perdomoh/pen/gExgzJ) [code pen 2](
 
 ### Day 4: Rock, paper, scissors!
 
-**Progress:** I didn't go over any material on this day. However, I got in touch with some folks from the slack channel of Socket.io and explained my struggles for my game. I decided not to wait around and hacked a way to do a user confirmation by using a sort of handshake method. User 1 sends a requests and listens for confirmation. User 2 gets to decide whether to reject or accept. When User 2 accepts a confirmation to User 1 is sent, and the timer in both ends starts. Both players get 5 seconds to select their card and then they send each other their responses which in turn gets computed with the logic and they get their results. I wish there was anyther way of simplying this process, but for now this will do :confused:.
+**Progress:** I didn't go over any material on this day. However, I got in touch with some folks from the slack channel of Socket.io and explained my struggles for my game. I decided not to wait around and hacked a way to do a user confirmation by using a sort of handshake method. User 1 sends a requests and listens for confirmation. User 2 gets to decide whether to reject or accept. When User 2 accepts a confirmation to User 1 is sent, and the timer in both ends starts. Both players get 5 seconds to select their card and then they send each other their responses which in turn gets computed with the logic and they get their results. I wish there was another way of simplifying this process, but for now this will do :confused:.
 
 **Thoughts:** I didn't spend as much time as I would have wanted to. The code doesn't look pretty at the moment but I hope that when I get all the functionalities working I can focus on refactoring and making things more efficient. Today was a kind of down and slow day for me. Hopefully tomorrow turns out better.
 
@@ -46,16 +46,16 @@ Link to work: [pokeball](day5/day5.html)
 
 ### Day 6: More CSS figures
 
-**Progress:** Today I felt like taking some inpiration from dribbble and try to mimic some design. I decided it was time to try creating new shapes other than circles in css so I decided to do a coffee cup.
+**Progress:** Today I felt like taking some inspiration from dribbble and try to mimic some design. I decided it was time to try creating new shapes other than circles in css so I decided to do a coffee cup.
 
-**Thoughts:** Every day gets harder to make some time for this challenge. I fear that once the break is over I won't be able to committ to it :worried:
+**Thoughts:** Every day gets harder to make some time for this challenge. I fear that once the break is over I won't be able to commit to it :worried:
 
 Link to work: [starbucks coffee cup](day6/index.html)
 Demo: ![demo](/day6/demo.png)
 
 ### Day 7: Gatsby, React, CSS Modules, & Video
 
-**Progress:** I've gotta say that today was both challenging and hihghly productive. I've been wanting to put a web page together to showcase my work but I always had difficulty finding the best tools that will allow me to use React and the hosting wouldn't cost me much. Thanks to Gatsby.js I'm able to create a fast static site on React, and thanks to Netlify I'm able to share it with the world with \$0 cost. I didn't finish the entire site, I'll keep adding more stuff incrementally here and there but I'm proud of how much I got done today. The site is still not responsive tho :cold_sweat:, that will be my next move.
+**Progress:** I've gotta say that today was both challenging and highly productive. I've been wanting to put a web page together to showcase my work but I always had difficulty finding the best tools that will allow me to use React and the hosting wouldn't cost me much. Thanks to Gatsby.js I'm able to create a fast static site on React, and thanks to Netlify I'm able to share it with the world with \$0 cost. I didn't finish the entire site, I'll keep adding more stuff incrementally here and there but I'm proud of how much I got done today. The site is still not responsive tho :cold_sweat:, that will be my next move.
 
 **Thoughts:** The more I learn about Gatsby and all the buzz about serverless sites, the more I get curious about its capabilities and limitations. I'm thinking of coming up with more projects that use Gatsby and this new serverless infrastructure to see how it performs.
 
@@ -89,7 +89,7 @@ Demo: ![demo](/day6/demo.png)
 
 **Progress:** I managed to hack away the multiple answers feature required for this assignment but I didn't get to save data on the phone. Will learn how to in the next assignment.
 
-**Thoughts:** I'm starting to become familiar with the android development architecture. I used to spend hours just to get a simple feature to work, now its more seamless and efforless (depending on the level of complexity for a given feature).
+**Thoughts:** I'm starting to become familiar with the android development architecture. I used to spend hours just to get a simple feature to work, now its more seamless and effortless (depending on the level of complexity for a given feature).
 
 [Link to work](https://github.com/p-hugo/android-card-quiz-game)
 
@@ -103,7 +103,7 @@ Demo: ![demo](/day6/demo.png)
 
 ### Day 13: Going full styled-components on my website codebase
 
-**Progress:** I decided that styled componentes are the way to go for styling on my website codebase so I changed most of the components to styled ones. I left some navbar components as scss modules because the scss was quite long and I thought they should stay separated once they become quite long.
+**Progress:** I decided that styled components are the way to go for styling on my website codebase so I changed most of the components to styled ones. I left some navbar components as scss modules because the scss was quite long and I thought they should stay separated once they become quite long.
 
 **Thoughts:** Its starting to get very difficult to keep up with the school's workload and this challenge! However, I am not ready to quit. I need this to become a better developer so I will keep pressing forward and taking short breaks here and there.
 
@@ -111,7 +111,7 @@ Demo: ![demo](/day6/demo.png)
 
 ### Day 14: React-spring basics
 
-**Progress:** I started digging into what react-spring is all about and did some minor spring effets for the "creative corner" section of my site.
+**Progress:** I started digging into what react-spring is all about and did some minor spring effects for the "creative corner" section of my site.
 
 **Thoughts:** I really want to learn how to animate svg elements with this library but I don't know enough of svg to be able to understand the examples I've seen online.
 
@@ -127,7 +127,7 @@ Demo: ![demo](/day6/demo.png)
 
 ### Day 16: Fetch vs Axios vs jQuery AJAX vs XMLHttpRequest
 
-**Progress:** Fetching data can be done in a variety of ways, too many for me to remembet honestly. This is the reason why I decided to refresh on some of the options I have and compare them in one simple page. For this day I used fetch, axios, jQuery Ajax and XMLHttpRequest to send a get request to a random design quote API. Then, once the data had been fetch the quotes is updated.
+**Progress:** Fetching data can be done in a variety of ways, too many for me to remember honestly. This is the reason why I decided to refresh on some of the options I have and compare them in one simple page. For this day I used fetch, axios, jQuery Ajax and XMLHttpRequest to send a get request to a random design quote API. Then, once the data had been fetch the quotes is updated.
 
 **Thoughts:** Today's lesson was very useful even though it felt really lightweight. I think that whenever I have my doubts about fetching some data from an API I will find myself looking back at the examples I coded for today.
 
@@ -135,7 +135,7 @@ Demo: ![demo](/day6/demo.png)
 
 ### Day 17: APIs
 
-**Progress:** I started an API for questions. The main purpose is to store questions and answers for an interactive presentation. I want to display the participants answers real time after they are done answernig the questions in the middle of the presentation. I managed to set up 2 express routes with connections to an MLab database. I still need to add a way to post answers to the database.
+**Progress:** I started an API for questions. The main purpose is to store questions and answers for an interactive presentation. I want to display the participants answers real time after they are done answering the questions in the middle of the presentation. I managed to set up 2 express routes with connections to an MLab database. I still need to add a way to post answers to the database.
 
 **Thoughts:** Its been a little while since I've done backend stuff and I've gotta say that node js makes is very simple and easy. I saw a video from Wes Bos not too long ago where he used es6 syntax in his nodejs script and I decided to find the video and copy how he did the set up (which is very minimal). I ABSOLUTELY love how es6 syntax looks on node!
 
@@ -160,7 +160,7 @@ Demo: ![demo](/day6/demo.png)
 
 ### Day 20: Configuring own webpack settings for a React app
 
-**Progress:** I followed a small tutorial on how to set up your very own webpack config for a React app. No fancy stuff just your regular ES6 to ES5 transpiling and an html loader. Might add hot realoding later.
+**Progress:** I followed a small tutorial on how to set up your very own webpack config for a React app. No fancy stuff just your regular ES6 to ES5 transpiling and an html loader. Might add hot reloading later.
 
 **Thoughts:** Prior to this tutorial I had followed some instructions from a book published around 2015 and the information was obviously outdated. Back then I was really frustrated at how webpack worked because of the outcome from following the book's instructions. Now, is a joy looking at how easy it is to get started.
 
@@ -178,13 +178,13 @@ Demo: ![demo](/day6/demo.png)
 
 **Progress:** The day for me to play with Typescript has finally arrived! I went over 2-3 modules on plural sight about Typescript and took what I learned from there and implemented my own two scripts and compiled them down to JS manually.
 
-**Thoughs:** I like what Typescript offers, however I feel like I am not at the level in which all the type checking makes a massivee difference in my workflow. I wonder how a React app would look with all the extra syntax, I'm used to using propTypes to handle the majority of errors and bugs related to type checking. So... I don't really see the benefit of adding yet another layer of abstraction. Maybe as I learn more and use it more I will find that out for myself.
+**Thoughts:** I like what Typescript offers, however I feel like I am not at the level in which all the type checking makes a massive difference in my workflow. I wonder how a React app would look with all the extra syntax, I'm used to using propTypes to handle the majority of errors and bugs related to type checking. So... I don't really see the benefit of adding yet another layer of abstraction. Maybe as I learn more and use it more I will find that out for myself.
 
 [Typescript](day22/)
 
 ### Day 23: Redesigning Web Portfolio
 
-**Progress:** Oh boy did I put in some hours here! I basically deleted 1 sectiong of my website and changed a creative section to be more of a project section. I made these changes based on other web portfolios that I've seen around and that I really really like. I also tried using devicons with gatsby but failed to do so.
+**Progress:** Oh boy did I put in some hours here! I basically deleted 1 section of my website and changed a creative section to be more of a project section. I made these changes based on other web portfolios that I've seen around and that I really really like. I also tried using devicons with gatsby but failed to do so.
 
 **Thoughts:** Some things will not always come out the way you want them and some features, sadly, will take more time that you had initially intended to invest. I learned this when I had to import all the icons for a "things I used" section in my website manually! I tried using the CDN from devicons but I couldn't figure out a fast way. I also tried using react-devicon but I kept getting more errors—which I think are gatsby related but didn't really want to invest the time in digging the issue, just wanted to make sure my feature could be implemented today. SO! I had to do it manually and at last it worked. Will probably revisit this in the future to see if any better implementations have been discovered.
 
@@ -198,7 +198,7 @@ Demo: ![demo](/day6/demo.png)
 
 ### Day 25: Restructuring Chat Room App
 
-**Progress:** I went back in time and revisited my chat room app and made some major changes. First the file structure was thought out really bad, I was just learning how React and Node worked back then. I divided the src code for the react app in its own src folder and the backend server for socket connections also got its own directory. I also started using more es6 syntax in node through the use of esm so I converted frome es5 to es6 in the backend.
+**Progress:** I went back in time and revisited my chat room app and made some major changes. First the file structure was thought out really bad, I was just learning how React and Node worked back then. I divided the src code for the react app in its own src folder and the backend server for socket connections also got its own directory. I also started using more es6 syntax in node through the use of esm so I converted from es5 to es6 in the backend.
 
 **Thoughts:** The feeling of looking back at old code and finding out how naive I was and how I am able to spot the mistakes I made in the past is amazing! Through it I can see how much I've grown, it reinforces the fact that all this time coding has not been a waste. I actually know what I'm doing now. I think I will be reopening half-finished projects from the past and giving them a fresh new life with the knowledge I now have.
 
@@ -250,6 +250,48 @@ Demo: ![demo](/day6/demo.png)
 
 **Progress**: I mostly worked on a website's flexbox model. Did some CSS icon creation and even a custom React selector. 
 
-**Thoughs**: We take the small things for granted. The little icon hanging next to a link. The way a selector looks different from a regular one. All these things are really complex in their own way. After implementing my own selector, I notice these little things more and stop to admire the work developers have put into it.
+**Thoughts**: We take the small things for granted. The little icon hanging next to a link. The way a selector looks different from a regular one. All these things are really complex in their own way. After implementing my own selector, I notice these little things more and stop to admire the work developers have put into it.
 
 [Work](https://p-hugo.github.io/BTC-website/)
+
+### Day 32: Data structures and algorithms practice in java
+
+**Progress**: worked on 3 problems in leetcode. Two of which were based on data structures. I coded the solution in Java.
+
+**Thoughts**: I am not finding it easy to wrap my head around these problems! One of the reasons that contribute to this conundrum is that I haven't reviewed my data structures in a long time and I don't code in java regularly. I guess I need to get back on the horse and spend more time doing java and data structures.
+
+[Link](https://github.com/p-hugo/algos)
+
+### Day 33: Prop types on todo app
+
+**Progress**: decided to revisit the todo app and add proptypes all over for better debugging and as a way to practice how to use the `prop-types` library.
+
+**Thoughts**: not much here, it was more of a practical session thant anything else. It was fun! :smile:
+
+[Link](https://github.com/p-hugo/todoapp)
+
+### Day 34: Deployed newly redone todo app with draggable feature
+
+**Progress**: successfully deployed the todo app on github pages! 
+
+**Thoughts**: It took me incredibly more time thant I had anticipated. The settings of my previous todo app repo were giving me a hard time deploying the app so I decided to create a brand new react project with the existing code. Thankfully it worked!
+
+[Check the app](https://p-hugo.github.io/todoapp/)
+
+### Day 35: Finished Twitter bot
+
+**Progress**: Huge milestone here! I managed to implement a fully automatic bot to collect tweets. It turned out to be easier than what I had initially thought.
+
+**Thoughts**: I'm just glad this bot was finally finished. Setting up a cron job was no easy task and at the end of the day I had to reach out for `node-cron` and `pm2` in order to run the bot at certain intervals and in the background.
+
+[Link](https://github.com/p-hugo/tweet-collector)
+
+### Day 36: More data leetcode problem solving
+
+**Progress**: Solved 2 questions on leecode, not entirely by myself if I'm being completely honest. It took me a long time to understand how to tackle the problems. Good thing I know how to work with the debugger. That helped me a lot understand the optimal solutions leetcode showed me.
+
+**Thoughts**: these problems keep getting harder. I need to practice more!! :worried:
+
+[Link](https://github.com/p-hugo/algos)
+
+
