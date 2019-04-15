@@ -301,3 +301,12 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts**: Styled components really make theming an effortless thing to accomplish I love it!!
 
 [Update](https://p-hugo.github.io/todoapp/)
+
+
+### Day 38: GraphQL!
+
+**Progress**: went over half this course and created a graphql API to learn about this exciting new tech.
+
+**Thoughts**: I'm going to start by highlighting the good parts about GraphQL. First of all, eliminating the need to hit countless endpoints and having to memorize them all is a feature that I deeply appreciate not just because of how simple things become but because it just feels more efficient. It might require some boilerplate stuff but its not a hard process, I was able to chop down the basics in a few hours! The only thing sort of dislike—and this might be due tto the fact that I am new to GraphQL and have little knowledge—is that you need to specify various queries in the RootQuery object. Basically one for every argument that you want to pass for a given query on a given collection.
+
+[My first GraphQL API](https://github.com/p-hugo/graphql-playground)
