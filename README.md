@@ -294,4 +294,10 @@ Demo: ![demo](/day6/demo.png)
 
 [Link](https://github.com/p-hugo/algos)
 
+### Day 37: Theming!
 
+**Progress**: Added a toggle button that toggles between light and dark themes for my todo app!
+
+**Thoughts**: Styled components really make theming an effortless thing to accomplish I love it!!
+
+[Update](https://p-hugo.github.io/todoapp/)
