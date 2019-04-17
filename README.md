@@ -305,8 +305,16 @@ Demo: ![demo](/day6/demo.png)
 
 ### Day 38: GraphQL!
 
-**Progress**: went over half this course and created a graphql API to learn about this exciting new tech.
+**Progress**: Went over half this course and created a graphql API to learn about this exciting new tech.
 
 **Thoughts**: I'm going to start by highlighting the good parts about GraphQL. First of all, eliminating the need to hit countless endpoints and having to memorize them all is a feature that I deeply appreciate not just because of how simple things become but because it just feels more efficient. It might require some boilerplate stuff but its not a hard process, I was able to chop down the basics in a few hours! The only thing sort of dislike—and this might be due tto the fact that I am new to GraphQL and have little knowledge—is that you need to specify various queries in the RootQuery object. Basically one for every argument that you want to pass for a given query on a given collection.
 
 [My first GraphQL API](https://github.com/p-hugo/graphql-playground)
+
+### Day 39: GraphQL + Apollo Client
+
+**Progress**: Spent an hour working and learning how to fetch data from the graphql api I created yesterday.
+
+**Thoughts**: Fetching the data and acquiring it in the props object does seem odd at first but I think I can get use to it. If I'm being honest though, from the tweets I read today about graphql it doesn't seem like many people are adopting the technology or looking at it with the same enthusiasm that I look at it. I have to spend more time reading into it to find out whether it is worth learning it or not...
+
+[See the work](https://github.com/p-hugo/graphql-playground)
