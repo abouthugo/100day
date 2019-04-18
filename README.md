@@ -318,3 +318,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts**: Fetching the data and acquiring it in the props object does seem odd at first but I think I can get use to it. If I'm being honest though, from the tweets I read today about graphql it doesn't seem like many people are adopting the technology or looking at it with the same enthusiasm that I look at it. I have to spend more time reading into it to find out whether it is worth learning it or not...
 
 [See the work](https://github.com/p-hugo/graphql-playground)
+
+### Day 40: Gatsby + Auth0
+
+**Progress**: I learned how to integrate Auth0 with react applications and went ahead and experimented with Gatsby.
+
+**Thoughts**: I have yet to get used to serverless user authentication. Or anything serverless for that matter. Recently I've been working with PHP again, implementing hash functions to store passwords and validate users and such. I find it terribly confusing coming from that atmosphere to the effortless auth flow that Auth0 provides.
+
+[See the repo](https://github.com/p-hugo/gatsby-auth0)
