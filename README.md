@@ -326,3 +326,11 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts**: I have yet to get used to serverless user authentication. Or anything serverless for that matter. Recently I've been working with PHP again, implementing hash functions to store passwords and validate users and such. I find it terribly confusing coming from that atmosphere to the effortless auth flow that Auth0 provides.
 
 [See the repo](https://github.com/p-hugo/gatsby-auth0)
+
+### Day 41: Speed coding a custom react form
+
+**Progress**: I decided that today I needed to test myself and see how much I could get done in one hour with react. I did a very simple login card with, what I think is, a very cool UX. The passwords seems like its being validated once the user clicks on submit and it gives that feel of something happening in the background. 
+
+**Thoughts**: I took some inspiration from dribbble and decided to implement a cool login. I have to be honest here it didn't take me one hour, it was more 1 hour and 30 min. I need to become more acquainted with how custom forms can be achieved. So far I have customized inputs, selectors and dropdown menus. The latter being one of the trickiest ones. 
+
+[Got to day 41](day41/)
