@@ -334,3 +334,17 @@ Demo: ![demo](/day6/demo.png)
 **Thoughts**: I took some inspiration from dribbble and decided to implement a cool login. I have to be honest here it didn't take me one hour, it was more 1 hour and 30 min. I need to become more acquainted with how custom forms can be achieved. So far I have customized inputs, selectors and dropdown menus. The latter being one of the trickiest ones. 
 
 [Got to day 41](day41/)
+
+### Day 42: Deployed my site!
+
+**Progress**: the title says it all!!
+
+**Thoughts**: I am very excited about this! It took me a long time to come up with a design that I felt resonated with me. I am no writer so my story probably lacks novelty but I thought that since I am actively looking for a job at this time, it would be really good to deploy my site and show the world that I am a developer! :smile:
+
+[hugoperdomo.com](https://hugoperdomo.com)
+
+### Day 43: Coding problems 
+
+**Progress**: took 2 consecutive google phone interviews on leetcode.
+
+**Thoughts**: I failed both mock interviews miserably. Today was very hard for me to concentrate in anything other than the fact that my data structures and algorithms knowledge is below average. I plan to take the remaining days studying data structures and algorithms until I become a master. Its time to put my 10k hours on this. 
